@@ -46,3 +46,6 @@ async def predict(request: Request):
 
 #if __name__ == '__main__':
 #    uvicorn.run("app:app", host="127.0.0.1", port=5050, reload= True)
+
+# uvicorn api:app --reload   : run this command
+# http://127.0.0.1:8000/docs : open this link
